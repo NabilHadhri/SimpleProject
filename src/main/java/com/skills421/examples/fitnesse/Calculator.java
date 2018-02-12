@@ -8,7 +8,7 @@ public class Calculator
     //private double calculate;
  
      
- 
+    
     public double getValue1()
     {
         return value1;
@@ -69,7 +69,7 @@ public class Calculator
         cp.setValue1(3.0);
         cp.setOperator("+");
         cp.setValue2(5.0);
-         
+        //affichage
         System.out.println(cp.calculate());
     }
 }
